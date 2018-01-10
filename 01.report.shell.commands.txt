@@ -1,0 +1,66 @@
+lecanhduong@ubuntu:~$ echo hello world
+hello world
+lecanhduong@ubuntu:~$ passwd
+Changing password for lecanhduong.
+(current) UNIX password: 
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+lecanhduong@ubuntu:~$ date
+Tue Jan  9 19:07:43 PST 2018
+lecanhduong@ubuntu:~$ hostname
+ubuntu
+lecanhduong@ubuntu:~$ arch
+x86_64
+lecanhduong@ubuntu:~$ uname -a
+Linux ubuntu 4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+lecanhduong@ubuntu:~$ dmesg
+[    0.000000] Linux version 4.10.0-28-generic (buildd@lgw01-12) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ) #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017 (Ubuntu 4.10.0-28.32~16.04.2-generic 4.10.17)
+[    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.10.0-28-generic root=UUID=f71d3915-797d-40bd-a8a2-317b1a733c3f ro find_preseed=/preseed.cfg auto noprompt priority=critical locale=en_US quiet
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+[    0.000000]   Centaur CentaurHauls
+[    0.000000] Disabled fast string operations
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x008: 'MPX bounds registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x010: 'MPX CSR'
+[    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+[    0.000000] x86/fpu: xstate_offset[3]:  832, xstate_sizes[3]:   64
+[    0.000000] x86/fpu: xstate_offset[4]:  896, xstate_sizes[4]:   64
+[    0.000000] x86/fpu: Enabled xstate features 0x1f, context size is 960 bytes, using 'compacted' format.
+[    0.000000] e820: BIOS-provided physical RAM map:
+[    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009e7ff] usable
+[    0.000000] BIOS-e820: [mem 0x000000000009e800-0x000000000009ffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000000dc000-0x00000000000fffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000003fedffff] usable
+[    0.000000] BIOS-e820: [mem 0x000000003fee0000-0x000000003fefefff] ACPI data
+[    0.000000] BIOS-e820: [mem 0x000000003feff000-0x000000003fefffff] ACPI NVS
+[    0.000000] BIOS-e820: [mem 0x000000003ff00000-0x000000003fffffff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000f0000000-0x00000000f7ffffff] reserved
+lecanhduong@ubuntu:~$ uptime
+ 19:08:17 up  1:27,  1 user,  load average: 0.09, 0.38, 0.40
+lecanhduong@ubuntu:~$ who am i
+lecanhduong@ubuntu:~$ whoami
+lecanhduong
+lecanhduong@ubuntu:~$ who
+lecanhduong tty7         2018-01-09 17:41 (:0)
+lecanhduong@ubuntu:~$ id
+uid=1000(lecanhduong) gid=1000(lecanhduong) groups=1000(lecanhduong),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),113(lpadmin),128(sambashare)
+lecanhduong@ubuntu:~$ last
+lecanhdu tty7         :0               Tue Jan  9 17:41    gone - no logout
+reboot   system boot  4.10.0-28-generi Tue Jan  9 17:40   still running
+lecanhdu tty7         :0               Tue Jan  9 11:39 - crash  (06:01)
+reboot   system boot  4.10.0-28-generi Tue Jan  9 11:38   still running
+
+wtmp begins Tue Jan  9 11:38:20 2018
+lecanhduong@ubuntu:~$ finger
+Login        Name            Tty      Idle  Login Time   Office     Office Phone
+lecanhduong  Le Canh Duong   tty7     1:28  Jan  9 17:41 (:0)
+lecanhduong@ubuntu:~$ w
+ 19:09:39 up  1:29,  1 user,  load average: 0.29, 0.36, 0.39
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+lecanhdu tty7     :0               17:41    1:29m 14.14s  0.20s /sbin/upstart -
+
