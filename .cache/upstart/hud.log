@@ -1,0 +1,13 @@
+[31mvoid DBusMenuImporter::slotGetLayoutFinished(QDBusPendingCallWatcher*)[0m: "No such interface 'com.canonical.dbusmenu' on object at path /org/ayatana/bamf/window/58720272"
+[31mvoid DBusMenuImporter::slotGetLayoutFinished(QDBusPendingCallWatcher*)[0m: "No such interface 'com.canonical.dbusmenu' on object at path /org/ayatana/bamf/window/62914561"
+QCoreApplication::postEvent: Unexpected null receiver
+[31mvoid DBusMenuImporter::slotGetLayoutFinished(QDBusPendingCallWatcher*)[0m: "No such interface 'com.canonical.dbusmenu' on object at path /org/ayatana/bamf/window/62914608"
+QCoreApplication::postEvent: Unexpected null receiver
+[31mvoid DBusMenuImporter::slotGetLayoutFinished(QDBusPendingCallWatcher*)[0m: "No such interface 'com.canonical.dbusmenu' on object at path /org/ayatana/bamf/window/62914762"
+[31mvoid DBusMenuImporter::slotGetLayoutFinished(QDBusPendingCallWatcher*)[0m: "No such interface 'com.canonical.dbusmenu' on object at path /org/ayatana/bamf/window/54525966"
+[31mvoid DBusMenuImporter::slotGetLayoutFinished(QDBusPendingCallWatcher*)[0m: "No such interface 'com.canonical.dbusmenu' on object at path /org/ayatana/bamf/window/69206032"
+[31mvoid DBusMenuImporter::slotGetLayoutFinished(QDBusPendingCallWatcher*)[0m: "No such interface 'com.canonical.dbusmenu' on object at path /org/ayatana/bamf/window/37749165"
+[31mvoid DBusMenuImporter::slotGetLayoutFinished(QDBusPendingCallWatcher*)[0m: "No such interface 'com.canonical.dbusmenu' on object at path /org/ayatana/bamf/window/54525959"
+[31mvoid DBusMenuImporter::slotGetLayoutFinished(QDBusPendingCallWatcher*)[0m: "No such interface 'com.canonical.dbusmenu' on object at path /org/ayatana/bamf/window/54526084"
+[31mvoid DBusMenuImporter::slotGetLayoutFinished(QDBusPendingCallWatcher*)[0m: "No such interface 'com.canonical.dbusmenu' on object at path /org/ayatana/bamf/window/60819963"
+[31mvoid DBusMenuImporter::slotGetLayoutFinished(QDBusPendingCallWatcher*)[0m: "No such interface 'com.canonical.dbusmenu' on object at path /org/ayatana/bamf/window/46137476"

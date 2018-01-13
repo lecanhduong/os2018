@@ -1,0 +1,13 @@
+
+** (bamfdaemon:1522): WARNING **: Got an X error: BadWindow (invalid Window parameter)
+
+
+** (bamfdaemon:1522): WARNING **: Got an X error: BadWindow (invalid Window parameter)
+
+
+** (bamfdaemon:1522): WARNING **: Got an X error: BadWindow (invalid Window parameter)
+
+
+** (bamfdaemon:1522): CRITICAL **: bamf_matcher_set_starting_desktop_file: assertion 'desktop_file != NULL' failed
+
+** (bamfdaemon:1522): CRITICAL **: bamf_matcher_set_starting_desktop_file: assertion 'desktop_file != NULL' failed
