@@ -41,3 +41,14 @@ free -m
 grep -m 1 'cpu cores' /proc/cpuinfo
 cd ~/Pictures
 -name "*.jpg" | wc -l
+git init
+git remote add origin https://github.com/lecanhduong/os2018
+git add origin master
+git pull origin master
+git status
+git add .
+git commit -m "report"
+git push origin master
+git init
+git remote add origin https://github.com/lecanhduong/os2018
+git pull origin master
