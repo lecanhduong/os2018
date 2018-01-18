@@ -29,5 +29,5 @@ numa_pages_migrated                          :                    0
 numa_preferred_nid                           :                   -1
 total_numa_faults                            :                    0
 current_node=0, numa_group_id=0
-numa_faults node=0 task_private=0 task_shared=0 group_private=0 group_shared=0
+numa_faults node=0 task_private=0 task_shared=0 group_private=0 group_shared=0 
 
