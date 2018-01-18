@@ -1,9 +1,5 @@
 lecanhduong@ubuntu:~$ cat /proc/sched_debug | grep systemd
          systemd     1       368.886512      2810   120         0.000000      1840.768348         0.000000 0 0 /autogroup-2
- systemd-journal   333       127.881256       823   120         0.000000       129.383742         0.000000 0 0 /autogroup-7
-   systemd-udevd   349      3717.947327      2593   120         0.000000      3312.426252         0.000000 0 0 /autogroup-10
- systemd-timesyn   441        36.055288       163   120         0.000000        35.913614         0.000000 0 0 /autogroup-27
-  systemd-logind   769        34.120760       465   120         0.000000        35.328737         0.000000 0 0 /autogroup-45
          systemd  1610        16.596448        36   120         0.000000        14.186721         0.000000 0 0 /autogroup-90
 lecanhduong@ubuntu:~$ cat /proc/1610/sched
 systemd (1610, #threads: 1)
