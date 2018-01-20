@@ -1,0 +1,7 @@
+lecanhduong@ubuntu:~$ ps -A
+2137 ?        00:00:07 firefox
+
+lecanhduong@ubuntu:~$ ps -o nlwp 2137
+NLWP
+41
+
